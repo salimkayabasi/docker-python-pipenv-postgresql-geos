@@ -2,7 +2,6 @@ FROM python:3-alpine
 
 ENV ALPINE_BASE_URL="http://dl-cdn.alpinelinux.org/alpine/edge"
 ENV PACKAGES="\
- make \
  gcc \
  musl-dev \
  postgresql-dev \

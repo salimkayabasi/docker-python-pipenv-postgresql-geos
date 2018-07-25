@@ -1,4 +1,4 @@
-FROM python:3-alpine
+FROM python:3.6-alpine
 
 ENV ALPINE_BASE_URL="http://dl-cdn.alpinelinux.org/alpine/edge"
 ENV PACKAGES="\
